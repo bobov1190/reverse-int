@@ -1,6 +1,8 @@
 module.exports = function reverse(n) {
     // If number is negative, i am making it positive
-    if (n < 0) n *= -1;
+    if (n < 0) {
+        n *= -1;
+    }
     // String - to make our number to typeof string
     // split - to make an array
     // reverse - to reverse the array
